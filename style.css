@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    background-color: white;
+    margin: 10px;
+}
+
+header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 60px; 
+}
+
+header{
+    display: flex;
+}
+
+.navbar-pinterest{
+    position: fixed;
+    width: 99%;
+    background-color: white;
+}
+
+.pinteres-icon{
+    display: flex;
+}
+
+.navbar-pinterest {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header_input{
+    width: 560px;
+    margin: 0 auto;
+}
+
+li{
+    align-self: center;
+}
+
+.search{
+    margin: 10px;
+}
+
+.search {
+        display: flex;
+        height: auto;
+        padding: 15px 15px 5px;
+        border: 1px solid gray;
+        border-radius: 24px;
+}
+
+input{
+    width: 500px;
+    border: none;
+    outline: none;;
+}
+
+.header_input :hover{
+   background-color: lightgrey;
+   align-items: center;
+}
+
+input :hover{
+    background-color: lightgrey;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content {
+    columns: 7 250px;
+}
+
+.card-image {
+    max-width: 100%;
+    border-radius: 10px;
+    align-items: center;
+}   
+
+.card-image{
+    background: var(--i);
+    border-radius: 30px;
+}
